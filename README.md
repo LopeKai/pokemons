@@ -5,7 +5,7 @@
 
 <h2> Status: em desenvolvimento ⚠️ </h2>
 
-<p> Um projeto que conseguir listar todos os pokemons existentes. E uma barra de pesquisar que vamos conseguir filtrar um pokémon específico</p>
+<p> Um projeto que lista todos os pokemons existentes. E uma barra de pesquisar que vamos conseguir filtrar um pokémon específico.</p>
 
 <h2> Tecnologias: </h2>
 
