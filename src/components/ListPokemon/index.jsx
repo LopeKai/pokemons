@@ -25,7 +25,7 @@ export function ListPokemon() {
 
         createPokemon(data.results)
     }
-    console.log(allPokemon)
+    // console.log(allPokemon)
     useEffect(() => {
         getPokemon()
     }, [])
@@ -38,16 +38,16 @@ export function ListPokemon() {
                         return (
                             <Pokemon 
                                 key={index} 
-                                title={`Pokemon ${++index}`} 
+                                title={`#${++index}`} 
                                 name={item.name} 
                                 image={item.sprites.other.dream_world.front_default}
                                 type={item.types[0].type.name}
                                 hp={item.base_experience}
+                                ability={item.abilities}
                             />
                         )
                     })
                 }
-                {/* <Pokemon title="Pokemon 3" name="Raichu" /> */}
             </Ul>
             <ButtonNext onClick={() => getPokemon()}>Next Pokemons</ButtonNext>
         </Container >
